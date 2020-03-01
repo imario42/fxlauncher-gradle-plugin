@@ -26,7 +26,8 @@ class GenerateApplicationManifestTask extends DefaultTask {
     private static final CREATE_MANIFEST_CLASSNAME = 'fxlauncher.CreateManifest'
 
     private static ClassLoader cl
-    Configuration classpath
+
+    private Configuration classpath
 
     @TaskAction
     void generate() {
